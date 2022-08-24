@@ -7,11 +7,12 @@
 
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
+  default = "cam-jenk"
 }
 
 variable "location" {
   description = "The region where the virtual network is created."
-  default     = "centralus"
+  default     = "Central US"
 }
 
 variable "address_space" {
